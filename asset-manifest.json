@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KmsMaju-viewing/static/css/main.f855e6bc.css",
+    "main.js": "/KmsMaju-viewing/static/js/main.6d235940.js",
+    "index.html": "/KmsMaju-viewing/index.html",
+    "main.f855e6bc.css.map": "/KmsMaju-viewing/static/css/main.f855e6bc.css.map",
+    "main.6d235940.js.map": "/KmsMaju-viewing/static/js/main.6d235940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6d235940.js"
+  ]
+}
