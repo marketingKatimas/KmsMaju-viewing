@@ -22,7 +22,7 @@ function Services() {
                   <h5 className="fsz-24 mb-20"> Architecture & Building </h5>
                   <div className="img">
                     <img
-                      src="/home1/assets/img/services/ser1.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/services/ser1.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -48,7 +48,7 @@ function Services() {
                   <h5 className="fsz-24 mb-20">Interior and Exterior Design</h5>
                   <div className="img">
                     <img
-                      src="/home1/assets/img/services/ser2.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/services/ser2.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -74,7 +74,7 @@ function Services() {
                   <h5 className="fsz-24 mb-20"> Furniture Productions </h5>
                   <div className="img">
                     <img
-                      src="/home1/assets/img/services/ser3.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/services/ser3.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -102,7 +102,7 @@ function Services() {
                   </h5>
                   <div className="img">
                     <img
-                      src="/home1/assets/img/services/ser4.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/services/ser4.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -131,7 +131,7 @@ function Services() {
         </div>
       </div>
       <div className="ser-img">
-        <img src="/home1/assets/img/services/ser.jpg" alt="" />
+        <img src={`${process.env.PUBLIC_URL}/home1/assets/img/services/ser.jpg`} alt="" />
       </div>
     </section>
   );

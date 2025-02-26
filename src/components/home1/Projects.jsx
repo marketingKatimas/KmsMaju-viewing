@@ -96,11 +96,11 @@ function Projects() {
                       <div key={i} className="swiper-slide">
                         <div className="project-card">
                           <a
-                            href={item.img}
+                            href={`${process.env.PUBLIC_URL}${item.img}`}
                             className="img"
                             data-fancybox="proj"
                           >
-                            <img src={item.img} alt="" className="img-cover" />
+                            <img src={`${process.env.PUBLIC_URL}${item.img}`} alt="" className="img-cover" />
                           </a>
                           <div className="info">
                             <div className="tags">
@@ -135,11 +135,11 @@ function Projects() {
                       <div key={i} className="swiper-slide">
                         <div className="project-card">
                           <a
-                            href={item.img}
+                            href={`${process.env.PUBLIC_URL}${item.img}`}
                             className="img"
                             data-fancybox="proj"
                           >
-                            <img src={item.img} alt="" className="img-cover" />
+                            <img src={`${process.env.PUBLIC_URL}${item.img}`} alt="" className="img-cover" />
                           </a>
                           <div className="info">
                             <div className="tags">

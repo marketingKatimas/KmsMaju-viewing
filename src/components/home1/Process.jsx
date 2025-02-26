@@ -113,7 +113,7 @@ function Process() {
             <div className="col-lg-4 offset-lg-2">
               <div className="img wow">
                 <img
-                  src="/home1/assets/img/process.jpg"
+                  src={`${process.env.PUBLIC_URL}/home1/assets/img/process.jpg`}
                   alt=""
                   className="img-cover"
                 />
@@ -122,7 +122,7 @@ function Process() {
           </div>
         </div>
       </div>
-      <img src="/home1/assets/img/c_line2.png" alt="" className="c-line wow" />
+      <img src={`${process.env.PUBLIC_URL}/home1/assets/img/c_line2.png`} alt="" className="c-line wow" />
     </section>
   );
 }

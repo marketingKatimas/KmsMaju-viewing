@@ -9,7 +9,7 @@ function Header() {
             <div key={i} className="swiper-slide">
               <div className="slider-card">
                 <div className="img">
-                  <img src={item.img} alt="" className="img-cover" />
+                  <img src={`${process.env.PUBLIC_URL}${item.img}`} alt="" className="img-cover" />
                 </div>
                 <div className="info section-padding-x pb-70">
                   <div className="row align-items-end gx-5">

@@ -22,10 +22,10 @@ function Home1() {
         <link
           rel="stylesheet"
           type="text/css"
-          href="/home1/assets/css/home_1_style.css"
+          href={`${process.env.PUBLIC_URL}/home1/assets/css/home_1_style.css`}
         />
-        <script src="/common/assets/js/common_js.js"></script>
-        <script src="/home1/assets/js/home_1_scripts.js"></script>
+        <script src={`${process.env.PUBLIC_URL}/common/assets/js/common_js.js`}></script>
+        <script src={`${process.env.PUBLIC_URL}/home1/assets/js/home_1_scripts.js`}></script>
       </Helmet>
       <body className="home-style1">
         <Loader />

@@ -13,7 +13,7 @@ function Chat() {
           </h5>
         </div>
       </div>
-      <img src="/home1/assets/img/c_line4.png" alt="" className="c-line wow" />
+      <img src={`${process.env.PUBLIC_URL}/home1/assets/img/c_line4.png`} alt="" className="c-line wow" />
     </section>
   );
 }

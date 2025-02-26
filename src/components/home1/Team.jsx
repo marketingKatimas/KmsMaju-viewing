@@ -14,7 +14,7 @@ function Team() {
                 <a href="#" className="team-card wow zoomIn">
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team1.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team1.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -31,7 +31,7 @@ function Team() {
                 >
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team2.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team2.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -52,7 +52,7 @@ function Team() {
                 >
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team3.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team3.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -73,7 +73,7 @@ function Team() {
                 >
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team4.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team4.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -90,7 +90,7 @@ function Team() {
                 >
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team5.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team5.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -111,7 +111,7 @@ function Team() {
                 >
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team6.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team6.jpg`}
                       alt=""
                       className="img-cover"
                     />
@@ -154,7 +154,7 @@ function Team() {
                 >
                   <div className="img">
                     <img
-                      src="/home1/assets/img/team/team7.jpg"
+                      src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team7.jpg`}
                       alt=""
                       className="img-cover"
                     />

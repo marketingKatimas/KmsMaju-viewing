@@ -28,7 +28,7 @@ function Testimonials() {
                       <div className="author">
                         <div className="au-img">
                           <img
-                            src="/home1/assets/img/team/team1.jpg"
+                            src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team1.jpg`}
                             alt=""
                             className="img-cover"
                           />
@@ -55,7 +55,7 @@ function Testimonials() {
                       <div className="author">
                         <div className="au-img">
                           <img
-                            src="/home1/assets/img/team/team1.jpg"
+                            src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team1.jpg`}
                             alt=""
                             className="img-cover"
                           />
@@ -82,7 +82,7 @@ function Testimonials() {
                       <div className="author">
                         <div className="au-img">
                           <img
-                            src="/home1/assets/img/team/team1.jpg"
+                            src={`${process.env.PUBLIC_URL}/home1/assets/img/team/team1.jpg`}
                             alt=""
                             className="img-cover"
                           />
@@ -122,7 +122,7 @@ function Testimonials() {
           </div>
         </div>
       </div>
-      <img src="/home1/assets/img/c_line3.png" alt="" className="c-line" />
+      <img src={`${process.env.PUBLIC_URL}/home1/assets/img/c_line3.png`} alt="" className="c-line" />
     </section>
   );
 }

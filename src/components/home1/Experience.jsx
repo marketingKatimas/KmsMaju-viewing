@@ -16,7 +16,7 @@ function Experience() {
           <div className="col-lg-3">
             <div className="img wow">
               <img
-                src="/home1/assets/img/exp.png"
+                src={`${process.env.PUBLIC_URL}/home1/assets/img/exp.png`}
                 alt=""
                 className="img-cover"
               />
@@ -54,7 +54,7 @@ function Experience() {
           </div>
         </div>
       </div>
-      <img src="/home1/assets/img/c_line.png" alt="" className="c-line wow" />
+      <img src={`${process.env.PUBLIC_URL}/home1/assets/img/c_line.png`} alt="" className="c-line wow" />
     </section>
   );
 }

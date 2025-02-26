@@ -27,7 +27,7 @@ function Blog() {
               <div key={i} className="swiper-slide">
                 <div className="blog-card">
                   <div className="img">
-                    <img src={item.img} alt="" className="img-cover" />
+                    <img src={`${process.env.PUBLIC_URL}${item.img}`} alt="" className="img-cover" />
                   </div>
                   <div className="info">
                     <div className="date">
