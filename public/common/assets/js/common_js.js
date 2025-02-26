@@ -107,6 +107,10 @@ $( function() {
 
 
 // ------------ Preloader -----------
+// - Increased text fade-out delay from 1.5s → 3s
+// - Made SVG wave animation slower (from 0.5s → 1.5s each)
+// - Slowed down the loader disappearance (from 1s → 1.5s)
+// - Added a 1s delay before hiding the loader completely
 $( function() {
     const svg = document.getElementById("svg");
     const tl = gsap.timeline();
@@ -114,23 +118,28 @@ $( function() {
     const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
 
     tl.to(".loader-wrap-heading .load-text , .loader-wrap-heading .cont", {
-        delay: 1.5,
+        // delay: 1.5,
+        delay: 4, // Extended delay before hiding text
         y: -100,
         opacity: 0,
     });
     tl.to(svg, {
-        duration: 0.5,
+        // duration: 0.5,
+        duration: 1.5, // Slower wave animation
         attr: { d: curve },
         ease: "power2.easeIn",
     }).to(svg, {
         duration: 0.5,
+        // duration: 1.5, // Slower transition to flat
         attr: { d: flat },
         ease: "power2.easeOut",
     });
     tl.to(".loader-wrap", {
+        // duration: 1.5, // Slower disappearance
         y: -1500,
     });
     tl.to(".loader-wrap", {
+        // delay: 1, // Delay before hiding the loader completely
         zIndex: -1,
         display: "none",
     });

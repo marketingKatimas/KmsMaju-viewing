@@ -8,7 +8,7 @@ function Loader() {
       </svg>
 
       <div className="loader-wrap-heading">
-        <div className="load-text">
+        {/* <div className="load-text">
           <span>L</span>
           <span>o</span>
           <span>a</span>
@@ -16,6 +16,15 @@ function Loader() {
           <span>i</span>
           <span>n</span>
           <span>g</span>
+        </div> */}
+        <div className="load-text">
+          <span>K</span>
+          <span>m</span>
+          <span>s</span>
+          <span>M</span>
+          <span>a</span>
+          <span>j</span>
+          <span>u</span>
         </div>
       </div>
     </div>
