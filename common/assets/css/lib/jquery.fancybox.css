@@ -177,6 +177,10 @@ body.compensate-for-scrollbar {
     position: relative;
     text-align: left;
     vertical-align: middle;
+    transform: translate(213px, 2012px) scale(1, 1);
+    opacity: 1;
+    width: 100vw;
+    height: 20%;
 }
 
 .fancybox-slide--image .fancybox-content {
