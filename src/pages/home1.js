@@ -27,7 +27,7 @@ function Home1() {
         <script src={`${process.env.PUBLIC_URL}/common/assets/js/common_js.js`}></script>
         <script src={`${process.env.PUBLIC_URL}/home1/assets/js/home_1_scripts.js`}></script>
       </Helmet>
-      <body className="home-style1">
+      <div className="home-style1">
         <Loader />
         <Menu />
         <div className="smooth-scroll-content" id="scrollsmoother-container">
@@ -46,7 +46,7 @@ function Home1() {
           </main>
           <Footer />
         </div>
-      </body>
+      </div>
     </>
   );
 }
