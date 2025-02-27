@@ -177,11 +177,17 @@ body.compensate-for-scrollbar {
     position: relative;
     text-align: left;
     vertical-align: middle;
-    transform: translate(213px, 2012px) scale(1, 1);
-    opacity: 1;
-    width: 100vw;
-    height: 20%;
 }
+
+@media screen and (max-width: 576px) { 
+    .fancybox-content {
+        transform: translate(10%, 35%) scale(1, 1) !important;
+        opacity: 1;
+        width: 86vw !important;
+        height: 13% !important;
+    }
+}
+
 
 .fancybox-slide--image .fancybox-content {
     animation-timing-function: cubic-bezier(.5, 0, .14, 1);
