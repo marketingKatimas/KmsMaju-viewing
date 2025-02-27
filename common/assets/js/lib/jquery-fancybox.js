@@ -241,7 +241,7 @@
       backFocus: false,
   
       // Do not let user to focus on element outside modal content
-      trapFocus: true,
+      trapFocus: false,
   
       // Module specific options
       // =======================
