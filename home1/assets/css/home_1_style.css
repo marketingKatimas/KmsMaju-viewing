@@ -416,6 +416,11 @@
   -webkit-transition-delay: 0.3s;
           transition-delay: 0.3s;
 }
+@media screen and (max-width: 576px) {
+  .tc-services-style1 .title p {
+    letter-spacing: 38px;
+  }
+}
 .tc-services-style1 .title p.animated {
   letter-spacing: 10px;
   opacity: 1;

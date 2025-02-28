@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/KmsMaju-viewing/static/css/main.f855e6bc.css",
-    "main.js": "/KmsMaju-viewing/static/js/main.d9bfd176.js",
+    "main.js": "/KmsMaju-viewing/static/js/main.10f30612.js",
     "index.html": "/KmsMaju-viewing/index.html",
     "main.f855e6bc.css.map": "/KmsMaju-viewing/static/css/main.f855e6bc.css.map",
-    "main.d9bfd176.js.map": "/KmsMaju-viewing/static/js/main.d9bfd176.js.map"
+    "main.10f30612.js.map": "/KmsMaju-viewing/static/js/main.10f30612.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.d9bfd176.js"
+    "static/js/main.10f30612.js"
   ]
 }
