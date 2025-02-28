@@ -418,7 +418,7 @@
 }
 @media screen and (max-width: 576px) {
   .tc-services-style1 .title p {
-    letter-spacing: 38px;
+    letter-spacing: 30px;
   }
 }
 .tc-services-style1 .title p.animated {
@@ -1082,7 +1082,7 @@
 
 @media screen and (max-width: 991px) {
   .tc-chat-style1 .xl-text {
-    font-size: 50px;
+    font-size: 45px;
   }
 }
 /* --------------- footer style1 --------------- */
