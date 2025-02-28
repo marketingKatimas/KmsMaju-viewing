@@ -1,42 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import data1 from '../../data/home1/projects/projects1';
-
 function Projects() {
-  useEffect(() => {
-    if (window.Swiper) {
-      new window.Swiper(".projects-slider", {
-        loop: false,
-        slidesPerView: 1,
-        spaceBetween: 20,
-        // autoplay: {
-        //   delay: 3000,
-        //   disableOnInteraction: false,
-        // },
-        autoplay: false,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          320: { slidesPerView: 1 }, // Mobile view
-          425: { slidesPerView: 2 }, // Small screens
-          768: { slidesPerView: 2 }, // Tablets
-          1024: { slidesPerView: 3 }, // Large screens
-        },
-
-        // Enable drag/swipe functionality
-        grabCursor: true,  // Shows grab cursor on hover
-        allowTouchMove: true,  // Enables touch drag
-        simulateTouch: true,  // Allows dragging with mouse
-
-      });
-    }
-  }, []);
-
   return (
     <section className="tc-projects-style1">
       <div className="container">
@@ -74,7 +38,7 @@ function Projects() {
                     className="nav-link"
                     id="pills-proj3-tab"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-proj3"
+                    data-bs-target="#pills-proj1"
                     type="button"
                   >
                     Interior
@@ -85,7 +49,7 @@ function Projects() {
                     className="nav-link"
                     id="pills-proj4-tab"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-proj4"
+                    data-bs-target="#pills-proj2"
                     type="button"
                   >
                     Landscape
@@ -96,7 +60,7 @@ function Projects() {
                     className="nav-link"
                     id="pills-proj5-tab"
                     data-bs-toggle="pill"
-                    data-bs-target="#pills-proj5"
+                    data-bs-target="#pills-proj1"
                     type="button"
                   >
                     Furniture
@@ -126,7 +90,7 @@ function Projects() {
               aria-labelledby="pills-proj1-tab"
             >
               <div className="projects-content float_box_container">
-                <div className="projects-slider swiper">
+                <div className="projects-slider">
                   <div className="swiper-wrapper">
                     {data1.map((item, i) => (
                       <div key={i} className="swiper-slide">
@@ -152,19 +116,51 @@ function Projects() {
                       </div>
                     ))}
                   </div>
-
-                  {/* Pagination & Navigation */}
-                  {/* <div className="swiper-pagination"></div>
-                  <div className="swiper-button-next"></div>
-                  <div className="swiper-button-prev"></div> */}
-
                 </div>
                 <div className="float-cursor float_box">
                   Hold <br /> and Drag
                 </div>
               </div>
             </div>
-
+            <div
+              className="tab-pane fade"
+              id="pills-proj2"
+              role="tabpanel"
+              aria-labelledby="pills-proj2-tab"
+            >
+              <div className="projects-content float_box_container">
+                <div className="projects-slider">
+                  <div className="swiper-wrapper">
+                    {data1.map((item, i) => (
+                      <div key={i} className="swiper-slide">
+                        <div className="project-card">
+                          <a
+                            href={`${process.env.PUBLIC_URL}${item.img}`}
+                            className="img"
+                            data-fancybox="proj"
+                          >
+                            <img src={`${process.env.PUBLIC_URL}${item.img}`} alt="" className="img-cover" />
+                          </a>
+                          <div className="info">
+                            <div className="tags">
+                              <a href="#"> {item.sub1} </a>
+                              <a href="#"> {item.sub2} </a>
+                            </div>
+                            <h3 className="title">
+                              <a href="#"> {item.title} </a>
+                            </h3>
+                            <div className="text">{item.desc}</div>
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="float-cursor float_box">
+                  Hold <br /> and Drag
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
